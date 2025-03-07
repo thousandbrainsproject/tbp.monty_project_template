@@ -66,6 +66,22 @@ conda init
 conda activate paper # TODO: Update to your paper's name
 ```
 
+## Experiments
+
+Experiments are defined in the `configs` directory.
+
+After installing the environment, to run an experiment, run:
+
+```bash
+python run.py -e <experiment_name>
+```
+
+To run an experiment where episodes are executed in parallel, run:
+
+```bash
+python run_parallel.py -e <experiment_name> -n <num_parallel>
+```
+
 ## Development
 
 After installing the environment, you can run the following commands to check your code.
