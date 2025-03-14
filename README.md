@@ -13,7 +13,7 @@ After copying the template, you need to address the following TODOs.
 ### `environment.yml`
 
 - Update project `name`.
-- Update `tbptslominski::tbp.monty` version.
+- Update `thousandbrainsproject::tbp.monty` version.
 - Add any other dependencies.
 
 ### `pyproject.toml`
@@ -22,13 +22,20 @@ After copying the template, you need to address the following TODOs.
 - Update the project `name`
 - Update the `Repository` and `Issues` URLs
 
-### `delete_me.png`
+### Delete template images
 
-- Delete this file
+- Delete `delete_me.png`
+- Delete `delete_me_too.png`
 
 ### `README.md`
 
 - Update for your project
+
+### Recommendations
+
+For a cleaner project commit history, go to your repository settings and in the Pull Requests section, only "Allow squash merging". It also helps to set your default commit message to the "Pull request title" option.
+
+![Pull Request Settings](./delete_me_too.png)
 
 ## Installation
 
