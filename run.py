@@ -16,7 +16,7 @@ setup_env()
 from tbp.monty.frameworks.run import main  # noqa: E402
 
 # Load all experiment configurations from local project.
-from configs.experiments import CONFIGS  # noqa: E402
+from configs import CONFIGS  # noqa: E402
 
 if __name__ == "__main__":
     main(all_configs=CONFIGS)

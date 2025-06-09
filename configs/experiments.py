@@ -12,9 +12,9 @@
 from __future__ import annotations
 
 # Add your experiment configurations here
-# e.g.: my_experiment_config = dict(...)
+# e.g.: my_experiment_config = {...}
 
 CONFIGS: dict[str, dict] = {
     # For each experiment name, add its corresponding configuration here.
-    # e.g.: my_experiment=my_experiment_config
+    # e.g.: "my_experiment": my_experiment_config
 }
