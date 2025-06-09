@@ -15,10 +15,10 @@ classifiers = [
 dependencies = [
     "tbp.monty", # imported via conda (thousandbrainsproject::tbp.monty)
 ]
-description = "Paper repository template" # TODO: Update this description
+description = "Project template repository for tbp.monty" # TODO: Update this description
 dynamic = ["version"]
 license = { file = "LICENSE" }
-name = "tbp.monty_paper" # TODO: Update this name
+name = "tbp.monty_project_template" # TODO: Update this name
 readme = "README.md"
 
 [project.optional-dependencies]
@@ -39,8 +39,8 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/thousandbrainsproject/tbp.monty_paper" # TODO: Update this URL
-Issues = "https://github.com/thousandbrainsproject/tbp.monty_paper/issues" # TODO: Update this URL
+Repository = "https://github.com/thousandbrainsproject/tbp.monty_project_template" # TODO: Update this URL
+Issues = "https://github.com/thousandbrainsproject/tbp.monty_project_template/issues" # TODO: Update this URL
 
 [tool.deptry]
 exclude = ["venv", "\\.venv", "\\.direnv", "\\.git", "setup\\.py"]

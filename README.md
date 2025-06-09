@@ -47,7 +47,7 @@ To create the environment, run:
 ```
 conda env create -f environment.yml --subdir=osx-64
 conda init zsh
-conda activate paper # TODO: Update to your paper's name
+conda activate project # TODO: Update to your project's name
 conda config --env --set subdir osx-64
 ```
 
@@ -55,7 +55,7 @@ conda config --env --set subdir osx-64
 ```
 conda env create -f environment.yml --subdir=osx-64
 conda init
-conda activate paper # TODO: Update to your paper's name
+conda activate project # TODO: Update to your project's name
 conda config --env --set subdir osx-64
 ```
 
@@ -63,14 +63,14 @@ conda config --env --set subdir osx-64
 ```
 conda env create -f environment.yml
 conda init zsh
-conda activate paper # TODO: Update to your paper's name
+conda activate project # TODO: Update to your project's name
 ```
 
 ### Intel (bash shell)
 ```
 conda env create -f environment.yml
 conda init
-conda activate paper # TODO: Update to your paper's name
+conda activate project # TODO: Update to your project's name
 ```
 
 ## Experiments

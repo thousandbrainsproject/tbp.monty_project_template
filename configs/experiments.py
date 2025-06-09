@@ -7,18 +7,12 @@
 # license that can be found in the LICENSE file or at
 # https://opensource.org/licenses/MIT.
 
-"""Module for the paper's experiment configurations."""
-
-from dataclasses import asdict
-
-from configs.names import Experiments
+"""Module for the project's experiment configurations."""
 
 # Add your experiment configurations here
 # e.g.: my_experiment_config = dict(...)
 
-experiments = Experiments(
-    # For each experiment name in Experiments, add its corresponding
-    # configuration here.
+CONFIGS = {
+    # For each experiment name, add its corresponding configuration here.
     # e.g.: my_experiment=my_experiment_config
-)
-CONFIGS = asdict(experiments)
+}
