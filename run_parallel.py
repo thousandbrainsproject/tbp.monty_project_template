@@ -11,7 +11,6 @@
 
 from tbp.monty.frameworks.run_env import setup_env
 
-
 setup_env()
 
 from tbp.monty.frameworks.run_parallel import main  # noqa: E402

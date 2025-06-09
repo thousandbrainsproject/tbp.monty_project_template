@@ -9,10 +9,12 @@
 
 """Module for the project's experiment configurations."""
 
+from __future__ import annotations
+
 # Add your experiment configurations here
 # e.g.: my_experiment_config = dict(...)
 
-CONFIGS = {
+CONFIGS: dict[str, dict] = {
     # For each experiment name, add its corresponding configuration here.
     # e.g.: my_experiment=my_experiment_config
 }
