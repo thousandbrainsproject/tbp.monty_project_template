@@ -1,6 +1,6 @@
-# tbp.monty_paper
+# tbp.monty_project_template
 
-This is a template repository for reproducibility code for papers depending on https://github.com/thousandbrainsproject/tbp.monty.
+This is a template repository to quickly use [tbp.monty](https://github.com/thousandbrainsproject/tbp.monty) for your project, prototype, or paper.
 
 To create a repository from this template, find and click the "Use this template" button:
 
