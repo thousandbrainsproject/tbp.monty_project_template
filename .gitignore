@@ -72,3 +72,6 @@ venv.bak/
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
+
+# hydra
+outputs/

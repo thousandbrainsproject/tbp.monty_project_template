@@ -22,6 +22,10 @@ After copying the template, you need to address the following TODOs.
 - Update the project `name`
 - Update the `Repository` and `Issues` URLs
 
+### `src` directory
+
+- Rename source path `src/tbp/monty_project_template` to match your `pyproject.toml` project `name`.
+
 ### Delete template images
 
 - Delete `delete_me.png`
@@ -75,18 +79,21 @@ conda activate project # TODO: Update to your project's name
 
 ## Experiments
 
-Experiments are defined in the `configs` directory.
+Define your experiments in the `src/tbp/monty_project_template/conf/experiment` directory
+(your path will be different as it will match your project name).
+You'll need to pass the `src/tbp/monty_project_template/conf` path as part of your run command
+via the Hydra `-cd src/tbp/monty_project_template/conf` option.
 
 After installing the environment, to run an experiment, run:
 
 ```bash
-python run.py -e <experiment_name>
+python run.py -cd src/tbp/monty_project_template/conf experiment=example
 ```
 
 To run an experiment where episodes are executed in parallel, run:
 
 ```bash
-python run_parallel.py -e <experiment_name> -n <num_parallel>
+python run_parallel.py -cd src/tbp/monty_project_template/conf experiment=example num_parallel=8
 ```
 
 ## Development

@@ -1,4 +1,4 @@
-# Copyright 2025 Thousand Brains Project
+# Copyright 2025-2026 Thousand Brains Project
 #
 # Copyright may exist in Contributors' modifications
 # and/or contributions to the work.
@@ -15,8 +15,5 @@ setup_env()
 
 from tbp.monty.frameworks.run_parallel import main  # noqa: E402
 
-# Load all experiment configurations from local project.
-from configs import CONFIGS  # noqa: E402
-
 if __name__ == "__main__":
-    main(all_configs=CONFIGS)
+    main()
