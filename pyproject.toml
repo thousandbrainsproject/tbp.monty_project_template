@@ -47,9 +47,6 @@ Issues = "https://github.com/thousandbrainsproject/tbp.monty_project_template/is
 exclude = ["venv", "\\.venv", "\\.direnv", "\\.git", "setup\\.py"]
 experimental_namespace_package = true # recognize `tbp.` prefixed packages as a namespace package
 ignore = ["DEP002"]
-known_first_party = [
-    "configs", # experiment configurations
-]
 
 
 [tool.mypy]
