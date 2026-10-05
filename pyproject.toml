@@ -13,7 +13,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 dependencies = [
-    "tbp.monty", # imported via conda (thousandbrainsproject::tbp.monty)
+    "tbp.monty==0.52.0", # Pin to the desired version for reproduciblity
     "hydra-core>=1.3.2", # Hydra is used for configuring Monty
 ]
 description = "Project template repository for tbp.monty" # TODO: Update this description
