@@ -129,5 +129,5 @@ torch-scatter = ["setuptools", "torch"]
 torch-sparse = ["torch"]
 
 # Override tbp.monty dependency with a local path to the repository if needed.
-[tool.uv.sources]
-tbp-monty = { path = "../tbp.monty", editable = true }
+# [tool.uv.sources]
+# tbp-monty = { path = "../tbp.monty", editable = true }
