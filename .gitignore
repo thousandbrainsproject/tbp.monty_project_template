@@ -75,3 +75,6 @@ venv.bak/
 
 # hydra
 outputs/
+
+# MuJoCo
+MUJOCO_LOG.TXT
